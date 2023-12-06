@@ -35,4 +35,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Аратюнов</subsystems>
+  <commonCommands>CommonCommand.СохранитьКонфигурацию</commonCommands>
 </mdclass:Configuration>
