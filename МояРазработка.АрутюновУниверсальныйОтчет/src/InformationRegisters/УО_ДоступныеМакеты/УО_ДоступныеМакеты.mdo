@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed10fd77-2b45-4c89-b438-725fdb645de8">
+  <producedTypes>
+    <selectionType typeId="eda3390f-713e-4a90-8e3c-ac13fcbefd21" valueTypeId="86f862cd-3598-402f-96f3-cf397eb34188"/>
+    <listType typeId="93fa2b6e-fd37-4488-9260-9293821ce789" valueTypeId="825b3964-71a2-4ce8-b5e2-93fe39581d38"/>
+    <managerType typeId="3f5b8f75-5061-479f-a110-c4d309ddbf7a" valueTypeId="547b7c09-e273-4094-bbeb-1a9ca85218d1"/>
+    <recordSetType typeId="f60d45be-cb01-4cef-93fd-69270f36009f" valueTypeId="02364a09-132c-41bd-915c-f7c85cae886c"/>
+    <recordKeyType typeId="14b1fd8d-4e8e-4637-bd1e-86aa27317791" valueTypeId="5ef22258-6557-4c26-ba78-c4ab49b51a3a"/>
+    <recordType typeId="769211d5-239a-4274-a657-2f79af206db7" valueTypeId="a063effb-62a0-4e54-9ed1-cf143b8d01c0"/>
+    <recordManagerType typeId="604635a1-df9e-4efa-84ac-6f7a0298e043" valueTypeId="d8740aab-aff6-4b92-8dab-de3011347c39"/>
+  </producedTypes>
+  <name>УО_ДоступныеМакеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступные макеты</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Доступные макеты</value>
+  </listPresentation>
+  <resources uuid="5ea43231-203c-49b5-81fd-59558d1c75d9">
+    <name>ПутьКМакету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к макету</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="3aef8f3b-e514-4648-aebc-0b4f332384c2">
+    <name>КлючЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ записи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="69190516-58a3-481d-860f-4891fab1f0a7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
