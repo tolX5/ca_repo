@@ -60,4 +60,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="c30d4dcb-56a9-4c27-98ae-75e79caef0ae">
+    <name>ОбработчикСохраненияСхемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработчик сохранения схемы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

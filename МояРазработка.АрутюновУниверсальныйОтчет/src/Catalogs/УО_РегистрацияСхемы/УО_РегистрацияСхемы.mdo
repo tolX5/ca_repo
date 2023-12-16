@@ -102,4 +102,16 @@
     </commandParameterType>
     <representation>Auto</representation>
   </commands>
+  <commands uuid="785c59f7-8d59-4fe6-8cee-a0b843963e8a">
+    <name>РедактироватьСхему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактировать схему</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.УО_РегистрацияСхемы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>
