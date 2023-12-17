@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecefab30-90e7-4969-b855-de068d7ce39f">
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c2460fa-e1fb-4055-b131-efdd9259a024">
   <name>СохранитьКонфигурацию</name>
   <synonym>
     <key>ru</key>

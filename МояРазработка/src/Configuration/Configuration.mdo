@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cd6cf49-ed8d-44c5-88f3-d52b4f19b373">
-  <name>Конфигурация</name>
+  <name>МояРазработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Моя разработка</value>
+  </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3cab3dc3-2380-4b06-889f-1caae3a318f5"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="dca9096d-bbcd-4121-9c02-196290243aba"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c2a9ab37-5b1e-44b3-8f74-758ad8e5637f"/>
@@ -34,6 +38,4 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Аратюнов</subsystems>
-  <commonCommands>CommonCommand.СохранитьКонфигурацию</commonCommands>
 </mdclass:Configuration>

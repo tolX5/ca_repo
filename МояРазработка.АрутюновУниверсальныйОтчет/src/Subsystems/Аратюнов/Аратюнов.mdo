@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="207a8b6c-7353-42b7-a75d-384543c5d33e">
-  <name>саУроки</name>
+  <name>Аратюнов</name>
   <synonym>
     <key>ru</key>
-    <value>са Уроки</value>
+    <value>АраТюнов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <subsystems>саАрутюновУниверсальныйОтчет</subsystems>
+  <subsystems>саУниверсальныйОтчет</subsystems>
+  <subsystems>саРазличныеПриемы</subsystems>
 </mdclass:Subsystem>
