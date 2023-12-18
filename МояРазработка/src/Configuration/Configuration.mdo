@@ -38,4 +38,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonTemplates>CommonTemplate.МакетТД</commonTemplates>
+  <commonTemplates>CommonTemplate.Схема1</commonTemplates>
 </mdclass:Configuration>
