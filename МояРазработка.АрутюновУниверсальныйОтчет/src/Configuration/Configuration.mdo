@@ -39,10 +39,14 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Аратюнов</subsystems>
+  <commonPictures>CommonPicture.УО_ВидыНаборов</commonPictures>
   <commonCommands>CommonCommand.СохранитьКонфигурацию</commonCommands>
+  <commonCommands>CommonCommand.УО_ОткрытьОтчет</commonCommands>
   <constants>Constant.УО_КонфигурацияИзменилась</constants>
   <catalogs>Catalog.УО_РегистрацияСхемы</catalogs>
+  <catalogs>Catalog.УО_НаборыДанных</catalogs>
   <enums>Enum.УО_ТипыИсточников</enums>
+  <enums>Enum.УО_ВидыНаборовДанных</enums>
   <reports>Report.УО_УниверсальныйОтчет</reports>
   <informationRegisters>InformationRegister.УО_ДоступныеМакеты</informationRegisters>
   <informationRegisters>InformationRegister.УО_ХранилищеСхем</informationRegisters>

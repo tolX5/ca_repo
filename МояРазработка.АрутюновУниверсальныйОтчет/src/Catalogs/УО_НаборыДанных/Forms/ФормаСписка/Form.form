@@ -10,7 +10,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа пользовательских настроек</value>
+      <value>User settings group</value>
     </title>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
@@ -61,7 +61,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Наименование</segments>
+        <segments>Список.Description</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -110,10 +110,6 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
-    <handlers>
-      <event>Selection</event>
-      <name>СписокВыбор</name>
-    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -255,7 +251,7 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <representation>HierarchicalList</representation>
+    <representation>Tree</representation>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
@@ -278,8 +274,11 @@
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>Список.DefaultPicture</segments>
+      <segments>Список.ВидНабора.Order</segments>
     </rowPictureDataPath>
+    <rowsPicture xsi:type="core:PictureRef">
+      <picture>CommonPicture.УО_ВидыНаборов</picture>
+    </rowsPicture>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -303,10 +302,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -314,6 +309,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <scalingMode>Compact</scalingMode>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
@@ -328,41 +324,11 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ПутьКИсточнику</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ТипИсточника</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ЭтоГруппа</segments>
-    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ
-	СправочникУО_РегистрацияСхемы.Ссылка КАК Ссылка,
-	СправочникУО_РегистрацияСхемы.ПометкаУдаления КАК ПометкаУдаления,
-	СправочникУО_РегистрацияСхемы.Родитель КАК Родитель,
-	СправочникУО_РегистрацияСхемы.ЭтоГруппа КАК ЭтоГруппа,
-	СправочникУО_РегистрацияСхемы.Код КАК Код,
-	СправочникУО_РегистрацияСхемы.Наименование КАК Наименование,
-	СправочникУО_РегистрацияСхемы.ПутьКИсточнику КАК ПутьКИсточнику,
-	СправочникУО_РегистрацияСхемы.ТипИсточника КАК ТипИсточника,
-	СправочникУО_РегистрацияСхемы.Предопределенный КАК Предопределенный,
-	СправочникУО_РегистрацияСхемы.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
-	ВЫБОР
-		КОГДА УО_ХранилищеСхем.РегистрацияСхемы ЕСТЬ NULL
-			ТОГДА ЛОЖЬ
-		ИНАЧЕ ИСТИНА
-	КОНЕЦ КАК СхемаЗагружена
-ИЗ
-	Справочник.УО_РегистрацияСхемы КАК СправочникУО_РегистрацияСхемы
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.УО_ХранилищеСхем КАК УО_ХранилищеСхем
-		ПО (УО_ХранилищеСхем.РегистрацияСхемы = СправочникУО_РегистрацияСхемы.Ссылка)</queryText>
-      <mainTable>Catalog.УО_РегистрацияСхемы</mainTable>
+      <mainTable>Catalog.УО_НаборыДанных</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
-      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>

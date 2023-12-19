@@ -12,5 +12,7 @@
   <content>Enum.УО_ТипыИсточников</content>
   <content>InformationRegister.УО_ДоступныеМакеты</content>
   <content>InformationRegister.УО_ХранилищеСхем</content>
+  <content>Constant.УО_КонфигурацияИзменилась</content>
+  <content>Catalog.УО_НаборыДанных</content>
   <parentSubsystem>Subsystem.Аратюнов</parentSubsystem>
 </mdclass:Subsystem>

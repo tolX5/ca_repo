@@ -8,7 +8,7 @@
   <name>УО_КонфигурацияИзменилась</name>
   <synonym>
     <key>ru</key>
-    <value>(уо) конфигурация изменилась</value>
+    <value>(УО) конфигурация изменилась</value>
   </synonym>
   <type>
     <types>Boolean</types>

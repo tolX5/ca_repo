@@ -38,6 +38,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.УО_РегистрацияСхемы.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.УО_РегистрацияСхемы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УО_РегистрацияСхемы.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="2e91f70d-60f2-415f-b2e4-7996e458b1a8">
     <name>ПутьКИсточнику</name>
     <synonym>
@@ -86,6 +87,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a08ba388-38e6-434b-ac1f-f37980183379">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
