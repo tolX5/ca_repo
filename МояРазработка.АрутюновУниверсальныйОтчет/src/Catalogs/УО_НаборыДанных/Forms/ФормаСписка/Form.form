@@ -706,7 +706,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Alt+Ниже</shortcut>
+    <shortcut>Ctrl+Shift+X</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.MoveDown</picture>
     </picture>
