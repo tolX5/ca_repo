@@ -11,7 +11,6 @@
     <usePurposes>Checked</usePurposes>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
-    <defaultRoles>Extended</defaultRoles>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5679fb70-ad75-43e6-888d-f5bf453f0edb"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c118d7c6-ee1e-4dc0-9e3e-3cdb23138dd3"/>

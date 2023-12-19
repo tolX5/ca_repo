@@ -307,43 +307,43 @@
     <event>NotificationProcessing</event>
     <name>ОбработкаОповещения</name>
   </handlers>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>LoadDynamicListSettings</excludedCommands>
-  <excludedCommands>MoveItem</excludedCommands>
-  <excludedCommands>List</excludedCommands>
-  <excludedCommands>ListSettings</excludedCommands>
-  <excludedCommands>CancelSearch</excludedCommands>
-  <excludedCommands>SaveDynamicListSettings</excludedCommands>
-  <excludedCommands>OutputList</excludedCommands>
   <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>CreateFolder</excludedCommands>
-  <excludedCommands>Refresh</excludedCommands>
-  <excludedCommands>LevelDown</excludedCommands>
   <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>Find</excludedCommands>
-  <excludedCommands>CustomizeForm</excludedCommands>
+  <excludedCommands>CancelSearch</excludedCommands>
+  <excludedCommands>Change</excludedCommands>
+  <excludedCommands>ChangeHistory</excludedCommands>
+  <excludedCommands>Close</excludedCommands>
   <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>GetURL</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
-  <excludedCommands>FindByCurrentValue</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>Tree</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
+  <excludedCommands>Create</excludedCommands>
+  <excludedCommands>CreateFolder</excludedCommands>
+  <excludedCommands>CustomizeForm</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>DynamicListStandardSettings</excludedCommands>
-  <excludedCommands>OpenFromStandaloneServer</excludedCommands>
-  <excludedCommands>HierarchicalList</excludedCommands>
-  <excludedCommands>OpenFromMainServer</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>Change</excludedCommands>
-  <excludedCommands>Create</excludedCommands>
-  <excludedCommands>ChangeHistory</excludedCommands>
-  <excludedCommands>LevelUp</excludedCommands>
-  <excludedCommands>Close</excludedCommands>
+  <excludedCommands>Find</excludedCommands>
+  <excludedCommands>FindByCurrentValue</excludedCommands>
+  <excludedCommands>GetURL</excludedCommands>
   <excludedCommands>Help</excludedCommands>
+  <excludedCommands>HierarchicalList</excludedCommands>
+  <excludedCommands>Ignore</excludedCommands>
+  <excludedCommands>LevelDown</excludedCommands>
+  <excludedCommands>LevelUp</excludedCommands>
+  <excludedCommands>List</excludedCommands>
+  <excludedCommands>ListSettings</excludedCommands>
+  <excludedCommands>LoadDynamicListSettings</excludedCommands>
+  <excludedCommands>MoveItem</excludedCommands>
+  <excludedCommands>No</excludedCommands>
+  <excludedCommands>OK</excludedCommands>
+  <excludedCommands>OpenFromMainServer</excludedCommands>
+  <excludedCommands>OpenFromStandaloneServer</excludedCommands>
+  <excludedCommands>OutputList</excludedCommands>
+  <excludedCommands>Refresh</excludedCommands>
+  <excludedCommands>RestoreValues</excludedCommands>
+  <excludedCommands>Retry</excludedCommands>
+  <excludedCommands>SaveDynamicListSettings</excludedCommands>
+  <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
+  <excludedCommands>Tree</excludedCommands>
+  <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
