@@ -49,4 +49,5 @@
   <reports>Report.УО_УниверсальныйОтчет</reports>
   <informationRegisters>InformationRegister.УО_ДоступныеМакеты</informationRegisters>
   <informationRegisters>InformationRegister.УО_ХранилищеСхем</informationRegisters>
+  <informationRegisters>InformationRegister.УО_Индексы</informationRegisters>
 </mdclass:Configuration>
