@@ -173,6 +173,64 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>Индекс</name>
+      <id>34</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Индекс</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ИндексРасширеннаяПодсказка</name>
+        <id>36</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИндексКонтекстноеМеню</name>
+        <id>35</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <format>
+          <key>ru</key>
+          <value>ЧН=0</value>
+        </format>
+        <editFormat>
+          <key>ru</key>
+          <value>ЧН=0</value>
+        </editFormat>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
@@ -479,7 +537,7 @@
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>Список.ВидНабора.Order</segments>
+      <segments>Список.ВидНабора.Порядок</segments>
     </rowPictureDataPath>
     <rowsPicture xsi:type="core:PictureRef">
       <picture>CommonPicture.УО_ВидыНаборов</picture>
@@ -616,21 +674,23 @@
 	УО_НаборыДанных.ВидНабора КАК ВидНабора,
 	УО_НаборыДанных.Предопределенный КАК Предопределенный,
 	УО_НаборыДанных.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
-	ВложенныйЗапрос.Записей КАК Записей
+	ВложенныйЗапрос.Записей КАК Записей,
+	ЕСТЬNULL(УО_Индексы.Индекс, -1) КАК Индекс
 ИЗ
-	Справочник.УО_НаборыДанных КАК УО_НаборыДанных
-		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
-			УО_НаборыДанных.Родитель КАК Родитель,
-			КОЛИЧЕСТВО(РАЗЛИЧНЫЕ УО_НаборыДанных.Ссылка) КАК Записей,
-			УО_НаборыДанных.Владелец КАК Владелец
-		ИЗ
-			Справочник.УО_НаборыДанных КАК УО_НаборыДанных
-		
-		СГРУППИРОВАТЬ ПО
-			УО_НаборыДанных.Родитель,
-			УО_НаборыДанных.Владелец) КАК ВложенныйЗапрос
-		ПО УО_НаборыДанных.Родитель = ВложенныйЗапрос.Родитель
-			И УО_НаборыДанных.Владелец = ВложенныйЗапрос.Владелец</queryText>
+	РегистрСведений.УО_Индексы КАК УО_Индексы
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.УО_НаборыДанных КАК УО_НаборыДанных
+			ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+				УО_НаборыДанных.Родитель КАК Родитель,
+				КОЛИЧЕСТВО(РАЗЛИЧНЫЕ УО_НаборыДанных.Ссылка) КАК Записей,
+				УО_НаборыДанных.Владелец КАК Владелец
+			ИЗ
+				Справочник.УО_НаборыДанных КАК УО_НаборыДанных
+			СГРУППИРОВАТЬ ПО
+				УО_НаборыДанных.Родитель,
+				УО_НаборыДанных.Владелец) КАК ВложенныйЗапрос
+			ПО УО_НаборыДанных.Родитель = ВложенныйЗапрос.Родитель
+			И УО_НаборыДанных.Владелец = ВложенныйЗапрос.Владелец
+		ПО УО_НаборыДанных.Ссылка = УО_Индексы.Набор</queryText>
       <mainTable>Catalog.УО_НаборыДанных</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -676,6 +736,10 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Записей</dataPath>
         <field>Записей</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Индекс</dataPath>
+        <field>Индекс</field>
       </fields>
     </extInfo>
   </attributes>
