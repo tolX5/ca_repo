@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f50ba39-cf77-405b-940e-8911991f28e5">
+  <producedTypes>
+    <objectType typeId="eb77749b-0461-4e4e-b69b-a17bc79fb83a" valueTypeId="8c8f6951-1eb7-4c6d-a1de-540e5d310704"/>
+    <refType typeId="eef66b23-01de-4071-beea-65d7436725b6" valueTypeId="08d57760-df1f-49e1-b3f7-a81a8607355a"/>
+    <selectionType typeId="3ae39546-31cc-4230-ad8f-60927c06b623" valueTypeId="ff47462b-436b-4f22-9413-c19369e0e8e1"/>
+    <listType typeId="695b4e7d-76ca-4da7-b632-f7cf15c5794b" valueTypeId="5ca82070-8841-4228-8e29-83f3ccd7edc9"/>
+    <managerType typeId="33ec5ea5-ab84-430d-90f8-3ccaa40edf28" valueTypeId="2af0df45-078f-47db-8e64-451e4c0f9b56"/>
+  </producedTypes>
+  <name>УО_РегистрацияСхемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все отчеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УО_РегистрацияСхемы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УО_РегистрацияСхемы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Все отчеты</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УО_РегистрацияСхемы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УО_РегистрацияСхемы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УО_РегистрацияСхемы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="2e91f70d-60f2-415f-b2e4-7996e458b1a8">
+    <name>ПутьКИсточнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к источнику</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e6adc2e-2bd7-4fe3-b712-6f9fd4276a83">
+    <name>ТипИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип источника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УО_ТипыИсточников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b408a3a7-3353-4e10-989f-b1538f6a1279">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4a9dcf54-4375-4e6e-9e7a-949c1652a12b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a08ba388-38e6-434b-ac1f-f37980183379">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b2ff35eb-12f9-42d9-80d8-c8c9c30d4245">
+    <name>ЗагрузитьСхему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить схему</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.УО_РегистрацияСхемы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="785c59f7-8d59-4fe6-8cee-a0b843963e8a">
+    <name>РедактироватьСхему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактировать схему</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.УО_РегистрацияСхемы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>
