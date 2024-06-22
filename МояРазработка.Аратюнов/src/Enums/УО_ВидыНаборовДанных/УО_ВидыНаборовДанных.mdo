@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a6c040-4728-4bd9-865f-ad49d449ced5">
+  <producedTypes>
+    <refType typeId="cc274507-c21c-43bc-a0a0-c9358485fa1a" valueTypeId="f66b8e24-0bf1-49ab-a410-f83bca5c0dfe"/>
+    <listType typeId="2d3d0e8a-2d91-43d8-8dcb-98ee05993fd3" valueTypeId="ce0110b9-ddfc-4b4e-b3c4-ad5407b60806"/>
+    <managerType typeId="3bdad8b2-8e5c-441c-a80d-8a9aa0d5f379" valueTypeId="b5bdd760-0053-49f9-a52a-e89b0cd26c54"/>
+  </producedTypes>
+  <name>УО_ВидыНаборовДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды наборов данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="17bf3865-039f-4c07-8d07-54ba6d42c2cb">
+    <name>Запрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6c36910-de15-4fdf-a3df-d9a6572a1a53">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c0cc302-b01c-414a-a7ef-3472a49c4e09">
+    <name>Объединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объединение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

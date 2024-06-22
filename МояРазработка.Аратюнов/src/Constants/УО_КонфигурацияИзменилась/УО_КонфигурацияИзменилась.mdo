@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26b3bd3c-9c27-48e2-9adf-e4c314e2081a">
+  <producedTypes>
+    <managerType typeId="738cca15-831f-4d5c-a2b5-4430db859ab4" valueTypeId="92fd28da-dcad-47e8-897a-6612e4994fae"/>
+    <valueManagerType typeId="e4481121-3221-485d-9a6c-62d67ba5fc13" valueTypeId="5a9a0512-e2a9-41fb-826e-073afabee6a9"/>
+    <valueKeyType typeId="fdf7c087-0da7-4ac3-a372-3ca50e18af47" valueTypeId="a26ac95c-9cb1-46f5-9d70-d2b472e7debb"/>
+  </producedTypes>
+  <name>УО_КонфигурацияИзменилась</name>
+  <synonym>
+    <key>ru</key>
+    <value>(УО) конфигурация изменилась</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
