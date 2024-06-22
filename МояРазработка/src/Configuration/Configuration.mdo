@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0fd1b8c-9217-4ec1-a02e-6ba6b57c781b">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="bbd40c75-8ef0-41d0-a7d4-a07b30906316"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="cdc66ce2-80d3-43fe-9868-18852dcb9a90"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e94c0842-216c-4be9-ad38-598f6ae9685e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0062a1e2-6d08-44b5-b5af-133db1a08460"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="59ec48e2-b881-47bb-907e-b1671b47537b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ed21a9ef-7411-4f1f-8612-d9e9994a0df1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1e0fb7b7-33e3-4ac8-85b4-a57266488419"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="d3eb10b4-f6d7-45ed-bf11-55266f079354">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ТоварныеЗапасы</subsystems>
+  <subsystems>Subsystem.Аратюнов1</subsystems>
+  <commonPictures>CommonPicture.Позвонить</commonPictures>
+  <commonPictures>CommonPicture.ОтправитьСМС</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаТоварныеЗапасы</commonPictures>
+  <roles>Role.РаботаСДанными</roles>
+  <commonModules>CommonModule.ФоновоеЗадание</commonModules>
+  <commonCommands>CommonCommand.ОстаткиТоваровНаСкладахКоманда</commonCommands>
+  <commonCommands>CommonCommand.ВыполнитьАлгоритмВФоновомРежиме</commonCommands>
+  <commandGroups>CommandGroup.Печать</commandGroups>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.РасчетныеСчета</catalogs>
+  <catalogs>Catalog.РасчетныеСчетаКонтрагентов</catalogs>
+  <catalogs>Catalog.Регионы</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
+  <catalogs>Catalog.ХранимыеФайлы</catalogs>
+  <documents>Document.ОперацияПоУчетуТоваров</documents>
+  <documents>Document.ПриходТовара</documents>
+  <enums>Enum.ВидыТоваров</enums>
+  <enums>Enum.ВидНастройкиАутентификацииSMTP</enums>
+  <enums>Enum.ВидСодержимогоВходящегоПисьма</enums>
+  <enums>Enum.PushУведомления</enums>
+  <enums>Enum.ВидыМобильныхОтчетов</enums>
+  <enums>Enum.СостоянияЗаказов</enums>
+  <enums>Enum.НазначениеХарактеристик</enums>
+  <enums>Enum.ИспользоватьПровайдерГеопозиционирования</enums>
+  <enums>Enum.Сложность</enums>
+  <enums>Enum.СложностьЗадач</enums>
+  <reports>Report.ОстаткиТоваровНаСкладах</reports>
+  <reports>Report.ПрайсЛист</reports>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
+  <informationRegisters>InformationRegister.Характеристики</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварныеЗапасы</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Хозрасчетный</chartsOfAccounts>
+</mdclass:Configuration>
