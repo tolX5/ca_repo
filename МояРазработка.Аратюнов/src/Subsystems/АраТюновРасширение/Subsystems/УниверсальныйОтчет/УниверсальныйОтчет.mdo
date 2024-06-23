@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bdb3c2b-99c6-4eac-80c6-3cf90c2c6108">
-  <name>саУниверсальныйОтчет</name>
+  <name>УниверсальныйОтчет</name>
   <synonym>
     <key>ru</key>
-    <value>(са) Универсальный отчет</value>
+    <value>Универсальный отчет</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -14,5 +14,8 @@
   <content>InformationRegister.УО_ХранилищеСхем</content>
   <content>Constant.УО_КонфигурацияИзменилась</content>
   <content>Catalog.УО_НаборыДанных</content>
-  <parentSubsystem>Subsystem.Аратюнов</parentSubsystem>
+  <content>CommonCommand.УО_ОткрытьОтчет</content>
+  <content>CommonPicture.УО_ВидыНаборов</content>
+  <content>Enum.УО_ВидыНаборовДанных</content>
+  <parentSubsystem>Subsystem.АраТюновРасширение</parentSubsystem>
 </mdclass:Subsystem>

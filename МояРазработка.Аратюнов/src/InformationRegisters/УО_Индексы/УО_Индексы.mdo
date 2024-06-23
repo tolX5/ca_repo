@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>(Уо) индексы</value>
   </synonym>
+  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="8fe9c2d4-9636-419c-a003-ce93bbd1eb6f">

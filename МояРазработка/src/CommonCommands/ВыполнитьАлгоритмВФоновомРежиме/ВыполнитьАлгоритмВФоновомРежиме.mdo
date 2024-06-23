@@ -5,6 +5,6 @@
     <key>ru</key>
     <value>Выполнить алгоритм в фоновом режиме</value>
   </synonym>
-  <group>ActionsPanelTools</group>
+  <group>NavigationPanelOrdinary</group>
   <representation>Auto</representation>
 </mdclass:CommonCommand>
