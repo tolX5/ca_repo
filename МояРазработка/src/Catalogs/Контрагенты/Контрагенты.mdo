@@ -459,6 +459,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d6be8b9b-5362-4ed0-8015-2054be828a4f">
+    <name>РазрешитьРезирвирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить резирвирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="0a489df6-dfb8-4e80-9a2d-8905c720a14a">
     <name>ФормаЭлемента</name>
     <synonym>

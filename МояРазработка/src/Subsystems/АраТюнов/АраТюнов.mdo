@@ -7,5 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <subsystems>ПримерРаботыССистемойВзаимодействия</subsystems>
+  <subsystems>СистемаВзаимодействия</subsystems>
+  <subsystems>ФункциональныеОпции</subsystems>
 </mdclass:Subsystem>

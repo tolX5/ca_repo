@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76ec73a9-3d33-4620-a9b0-5e2b89c06fa8">
-  <name>ПримерРаботыССистемойВзаимодействия</name>
+  <name>СистемаВзаимодействия</name>
   <synonym>
     <key>ru</key>
-    <value>Пример работы с системой взаимодействия</value>
+    <value>Система взаимодействия</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>

@@ -41,6 +41,8 @@
   <commonPictures>CommonPicture.ПодсистемаТоварныеЗапасы</commonPictures>
   <roles>Role.РаботаСДанными</roles>
   <commonModules>CommonModule.ФоновоеЗадание</commonModules>
+  <functionalOptions>FunctionalOption.ПоказыватьФункционалРезервирования</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.Клиент</functionalOptionsParameters>
   <commonCommands>CommonCommand.ОстаткиТоваровНаСкладахКоманда</commonCommands>
   <commonCommands>CommonCommand.ВыполнитьАлгоритмВФоновомРежиме</commonCommands>
   <commandGroups>CommandGroup.Печать</commandGroups>
@@ -60,6 +62,7 @@
   <catalogs>Catalog.ХранимыеФайлы</catalogs>
   <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.ПриходТовара</documents>
+  <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВидыТоваров</enums>
   <enums>Enum.ВидНастройкиАутентификацииSMTP</enums>
   <enums>Enum.ВидСодержимогоВходящегоПисьма</enums>
