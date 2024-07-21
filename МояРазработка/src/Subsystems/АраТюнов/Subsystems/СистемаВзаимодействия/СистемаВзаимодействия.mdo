@@ -8,5 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonCommand.ВыполнитьАлгоритмВФоновомРежиме</content>
+  <content>CommonModule.ФоновоеЗадание</content>
+  <content>Role.РаботаСДанными</content>
   <parentSubsystem>Subsystem.АраТюнов</parentSubsystem>
 </mdclass:Subsystem>
