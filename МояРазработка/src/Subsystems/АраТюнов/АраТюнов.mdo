@@ -3,7 +3,7 @@
   <name>АраТюнов</name>
   <synonym>
     <key>ru</key>
-    <value>Ара тюнов</value>
+    <value>Ара(тюнов)</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>

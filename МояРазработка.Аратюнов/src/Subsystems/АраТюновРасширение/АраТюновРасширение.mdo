@@ -3,7 +3,7 @@
   <name>АраТюновРасширение</name>
   <synonym>
     <key>ru</key>
-    <value>Ара тюнов расширение</value>
+    <value>Ара(тюнов) расширение</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
