@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Доступные макеты</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <listPresentation>
