@@ -20,10 +20,14 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="403a3512-dc98-4bdb-a14a-856c1eb48201">
-    <name>ВыборСхемы</name>
+    <name>УдалитьВыборСхемы</name>
     <synonym>
       <key>ru</key>
       <value>Выбор схемы отчета</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Удалить выбор схемы</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -51,6 +55,7 @@
       <value>Универсальный отчет</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:Report>

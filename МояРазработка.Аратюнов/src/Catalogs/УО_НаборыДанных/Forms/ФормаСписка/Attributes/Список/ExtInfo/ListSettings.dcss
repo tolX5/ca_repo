@@ -29,7 +29,7 @@
 			<appearance>
 				<dcscor:item xsi:type="SettingsParameterValue">
 					<dcscor:parameter>Текст</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType"/>
+					<dcscor:value xsi:type="xs:string"/>
 				</dcscor:item>
 			</appearance>
 		</item>
