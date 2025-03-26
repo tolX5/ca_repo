@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="468d1704-8fb6-4af9-84ff-266c8a5577f6">
+  <name>ПоказыватьФункционалРезервирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать функционал резервирования</value>
+  </synonym>
+  <location>Catalog.Контрагенты.Attribute.РазрешитьРезирвирование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗаказКлиента.Command.СогласованиеРезерва</content>
+  <content>Document.ЗаказКлиента.TabularSection.Состав.Attribute.Отложить</content>
+</mdclass:FunctionalOption>

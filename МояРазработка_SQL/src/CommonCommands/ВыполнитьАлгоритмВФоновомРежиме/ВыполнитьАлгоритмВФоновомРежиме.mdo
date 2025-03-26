@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2c921e7-cca8-4331-a061-d9a3e4c7348d">
+  <name>ВыполнитьАлгоритмВФоновомРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить алгоритм в фоновом режиме</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

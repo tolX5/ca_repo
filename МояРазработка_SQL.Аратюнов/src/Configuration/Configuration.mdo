@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f4dc3798-e7fe-4921-b49e-f445e9d9bea9">
+  <name>Аратюнов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный отчет</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5679fb70-ad75-43e6-888d-f5bf453f0edb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c118d7c6-ee1e-4dc0-9e3e-3cdb23138dd3"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9d86b24d-8e58-463a-85f9-f3cfe87f350c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0f594139-051e-4bbc-ac8a-6b082d314014"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="cbaf1a67-f48e-4594-8308-b9434f3e1842"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="aa212354-2a0c-411b-bcd6-98d3bc308505"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="cb4ea991-a67a-4279-9fc8-2c32e3e51ac7"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>УО_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.УО_ПолныеПрава</defaultRoles>
+  <version>2023.08.09</version>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <subsystems>Subsystem.АраТюновРасширение</subsystems>
+  <commonPictures>CommonPicture.УО_ВидыНаборов</commonPictures>
+  <roles>Role.УО_ПолныеПрава</roles>
+  <commonCommands>CommonCommand.СохранитьКонфигурацию</commonCommands>
+  <commonCommands>CommonCommand.УО_ОткрытьОтчет</commonCommands>
+  <constants>Constant.УО_КонфигурацияИзменилась</constants>
+  <catalogs>Catalog.УО_РегистрацияСхемы</catalogs>
+  <catalogs>Catalog.УО_НаборыДанных</catalogs>
+  <enums>Enum.УО_ТипыИсточников</enums>
+  <enums>Enum.УО_ВидыНаборовДанных</enums>
+  <reports>Report.УО_УниверсальныйОтчет</reports>
+  <informationRegisters>InformationRegister.УО_ДоступныеМакеты</informationRegisters>
+  <informationRegisters>InformationRegister.УО_ХранилищеСхем</informationRegisters>
+  <informationRegisters>InformationRegister.УО_Индексы</informationRegisters>
+</mdclass:Configuration>
