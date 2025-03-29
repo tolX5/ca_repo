@@ -583,6 +583,10 @@
           </nonselectedPictureText>
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
+          <border xsi:type="core:BorderDef">
+            <style>Single</style>
+            <width>1</width>
+          </border>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
